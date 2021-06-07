@@ -1,4 +1,4 @@
-  /*
+  
 create table person
 (
    id integer not null,
@@ -6,7 +6,7 @@ create table person
    location varchar(255),
    birth_date timestamp,
    primary key(id)
-); //enable this only for junitas db will persist */
+);
 
 
 INSERT INTO PERSON (ID, NAME, LOCATION, BIRTH_DATE ) 
